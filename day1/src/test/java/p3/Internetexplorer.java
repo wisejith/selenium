@@ -11,13 +11,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import screensht.NewTest.Capscr;
+
 
 public class Internetexplorer 
 {
   
  
 	  WebDriver driver;
+	  
 		@BeforeTest
 		void before()
 		
@@ -30,38 +31,7 @@ public class Internetexplorer
 		 
 			}
 		
-		
-	  @Test
-	  public void f() 
-	  {
-		
-		driver.get("https://www.google.com/");
-		driver.manage().window().maximize();
-		
-		Capscr.captureScreenShot(driver);
-		
-		//Actions actions = new Actions(driver);
-		//WebElement wb= driver.findElement(By.name("q"));
-		
-		
-		//actions.keyDown(wb, Keys.SHIFT);
-		//actions.sendKeys("Sowmiya");
-		//actions.keyUp(Keys.SHIFT);
-		
-		//actions.sendKeys("Sowmiya");
-		//actions.sendKeys(Keys.DELETE);
-		
-		
-
-		
-		
-		//Action action = actions.build();
-		//action.perform();
-		
-		
-		
-		
-	  }
+	
 	    
 	 @AfterTest
 	  void after()
