@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class NewTest {
-	@Test
+	
 	public static class Capscr {
 		
 		public static void captureScreenShot(WebDriver driver) 
@@ -20,7 +20,7 @@ public class NewTest {
 			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			try {
 
-				FileUtils.copyFile(src, new File("C:\\scrsht\\scr.png"+time()));
+				FileUtils.copyFile(src, new File("C:\\scrsht\\scr1.png"+time()));
 				} 
 			catch (IOException e) 
 				{
