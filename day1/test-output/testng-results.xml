@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16510" started-at="2019-11-12T07:00:00Z" finished-at="2019-11-12T07:00:16Z">
+  <suite name="Default suite" duration-ms="16341" started-at="2019-11-12T08:30:37Z" finished-at="2019-11-12T08:30:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16510" started-at="2019-11-12T07:00:00Z" finished-at="2019-11-12T07:00:16Z">
+    <test name="Default test" duration-ms="16341" started-at="2019-11-12T08:30:37Z" finished-at="2019-11-12T08:30:53Z">
       <class name="p2.Chrome">
-        <test-method status="PASS" signature="before()[pri:0, instance:p2.Chrome@3ffc5af1]" name="before" is-config="true" duration-ms="9391" started-at="2019-11-12T07:00:00Z" finished-at="2019-11-12T07:00:09Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:p2.Chrome@3ffc5af1]" name="before" is-config="true" duration-ms="8734" started-at="2019-11-12T08:30:37Z" finished-at="2019-11-12T08:30:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="f()[pri:0, instance:p2.Chrome@3ffc5af1]" name="f" duration-ms="2565" started-at="2019-11-12T07:00:09Z" finished-at="2019-11-12T07:00:12Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:p2.Chrome@3ffc5af1]" name="f" duration-ms="3231" started-at="2019-11-12T08:30:45Z" finished-at="2019-11-12T08:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="after()[pri:0, instance:p2.Chrome@3ffc5af1]" name="after" is-config="true" duration-ms="4517" started-at="2019-11-12T07:00:12Z" finished-at="2019-11-12T07:00:16Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:p2.Chrome@3ffc5af1]" name="after" is-config="true" duration-ms="4351" started-at="2019-11-12T08:30:49Z" finished-at="2019-11-12T08:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
