@@ -1,15 +1,10 @@
 package p2;
 
-import java.awt.List;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -18,8 +13,9 @@ public class Chrome
 
 {
 	WebDriver driver;
+		
 	@BeforeTest
-	void before()
+  public void before()
 	
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\A08019DIRP_C2C.02.02\\Desktop\\traning\\day1\\src\\test\\resources\\chromedriver.exe");
@@ -79,7 +75,7 @@ public class Chrome
 
   
   @AfterTest
-  void after()
+  public void after()
   {
 	  driver.close();
   }
